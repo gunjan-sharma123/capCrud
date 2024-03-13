@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" id="editProductFragment">
+    <Dialog title="Edit Product">
+        <content>
+            <!-- Your form content goes here -->
+            <Label text="First Name" />
+            <Input value="{firstName}" id="fn"/>
+            <Label text="Last Name" />
+            <Input value="{lastName}" id="ln" />
+            <Label text="Mobile No." />
+            <Input value="{MobileNo}" id="mn" />
+            <!-- Add more form fields as needed -->
+        </content>
+        <buttons>
+            <Button text="Save" press="onSave" />
+            <Button text="Cancel" press="onCancel" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>
